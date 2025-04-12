@@ -16,6 +16,21 @@ def write_file_configuration(audio_config, text_entry, speed_scale, pitch_scale,
         speed = speed_scale.get()  # Obtener la velocidad seleccionada            
         pitch = pitch_scale.get()  # Obtener el tono seleccionada            
 
+
+
+"""
+# Mostrar el mensaje de error en un cuadro de diálogo
+messagebox.showerror("Error", error_message)
+show_status_message(status_label, "Error en la configuración de voz", "error")
+elif not text.strip():  # Cambiado para verificar también espacios en blanco
+    # Mostrar el mensaje de error si el campo de texto está vacío
+    messagebox.showerror("Error", "El campo de texto está vacío. Por favor, ingrese algún texto.")
+    show_status_message(status_label, "Campo de texto vacío", "error")
+else:
+
+"""
+
+
         if error_message:
             # Mostrar el mensaje de error en un cuadro de diálogo
             messagebox.showerror("Error", error_message)
